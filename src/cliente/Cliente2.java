@@ -1,6 +1,3 @@
-/**
- * @author Santiago Die
- */
 package cliente;
 
 import java.io.BufferedReader;
@@ -10,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class Cliente {
+public class Cliente2 {
 
 	private static final String HOST = "localhost";
 	private static final int PUERTO = 7777;
@@ -39,7 +36,7 @@ public class Cliente {
 						continue;
 					}
 					if ("exit now".equalsIgnoreCase(palabra)) {
-						salida.println("<CLIENT_EXITCODE>");
+						salida.println("exitCode");
 
 						continue;
 					}
